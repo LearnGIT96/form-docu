@@ -260,8 +260,8 @@ p:nth-of-type(2) {
     position: absolute;
     top: 94%;
     left: 47%;
-    font-size: 11px;
-   
+    font-size: 10px;
+    width: 37vw;
 }
 
 .btton > a {
