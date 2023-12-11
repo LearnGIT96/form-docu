@@ -1,0 +1,430 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.web {
+    background-color: #F7FDFC;
+    width: 100vw;
+}
+
+.head > img {
+    max-width: 20vw;
+    height: 10vh;
+    margin-block-start: 20px;
+    margin-inline-start: 24px;
+}
+
+.head > h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.8px;
+    margin-block-start: 20px;
+    margin-inline-start: 24px;
+}
+.head > p {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-block-start: 10px;
+    margin-inline-start: 24px;
+    opacity: 0.5;
+    width: 90vw;
+}
+
+.form {
+    background-color: white;
+    max-width: 90vw;
+    height: 115vh;
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+
+
+input {
+    opacity: 0.2;
+    width: 80vw;
+    height: 30px;
+    margin-inline-start: 15px;
+    padding-left: 16px; 
+}
+
+.sect {
+    margin-top: 2px;
+}
+
+input:hover {
+    border-color: aqua;
+}
+
+p:nth-of-type(2) {
+    display: none;
+}
+
+label  {
+    margin-inline-start: 15px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+select {
+    margin-inline-start: 15px;
+    opacity: 0.2;
+    width: 80vw;
+    height: 30px;
+    padding-left: 16px;
+}
+
+input[type="password"] {
+    height: 7vh;
+}
+
+.btton {
+    width: 80vw;
+    height: 6vh;
+    margin-inline-start: 17px;
+    margin-block-start: 20px;
+    background-color: #2EC4B6;
+    border: none;
+}
+
+.btton > a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-1 {
+    font-size: 8px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 18px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.span > a {
+    color: #2EC4B6;
+    text-decoration: underline;
+    font-style: normal;
+}
+
+.eye {
+  position: relative;
+}
+
+.fa-eye {
+  position: absolute;
+  left: 80%; 
+  top: 30%;
+}
+
+
+@media screen and (min-width: 518px) {
+    .head > img {
+        margin-block-start: 50px;
+        margin-inline-start: 64px;
+        max-width: 60px;
+    }
+
+    .head > h1 {
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        margin-block-start: 30px;
+        margin-inline-start: 64px;
+    }
+
+    .head > p {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: ;
+        margin-block-start: 20px;
+        margin-inline-start: 64px;
+        opacity: 0.5;
+        width: 80vw;
+    }
+
+    .form {
+        background-color: white;
+        max-width: 95vw;
+        height: 135vh;
+        margin: 20px auto;
+        padding-top: 20px;
+    }
+
+    input {
+        width: 90vw;
+        height: 7vh;
+        margin-inline-start: 15px;
+    }
+
+    
+select {
+    margin-inline-start: 15px;
+    width: 90vw;
+    height: 7vh;
+    margin-inline-start: 15px;
+}
+
+input[type="password"] {
+    height: 55px;
+}
+
+.web {
+    background-color: #F7FDFC;
+    height: 200vh;
+}
+
+.btton {
+    width: 90vw;
+    margin-block-start: 40px;
+    height: 7vh;
+
+}
+
+.btton > a {
+    font-size: 20px;
+}
+
+.section-1 {
+    font-size: 10px;
+    text-align: center;
+    margin-block-start: 30px;
+}
+
+
+.eye {
+    position: relative;
+  }
+  
+  .fa-eye {
+    position: absolute;
+    left: 90%; 
+    top: 30%;
+  }
+}
+
+
+@media only screen and (min-width: 1024px)  {
+  
+  .web {
+    display: flex;
+    width: 98.5vw;
+    height: 120vh;
+}
+
+.head > img {
+    margin-inline-start: 204px;
+    width: 30vw;
+    height: 9vh;
+    margin-block-start: 240px;
+}
+
+.head > h1 {
+    font-size: 30px;
+    margin-inline-start: 204px;
+}
+
+.head > p {
+    font-size: 17px;
+    margin-inline-start: 204px;
+    width: 25vw;
+}
+
+p:nth-of-type(1) {
+    display: none;
+}
+
+p:nth-of-type(2) {
+    display: block;
+}
+
+.form {
+   height: 105vh;
+   margin-inline-end: 204px;
+   width: 40vw;
+   position: relative;
+   margin-top: 40px;
+}
+
+.section-1 {
+    position: absolute;
+    top: 94%;
+    left: 47%;
+    font-size: 11px;
+   
+}
+
+.btton > a {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.btton {
+    height: 7vh;
+    width: 36.5vw;
+    margin-inline-start: 27px;
+    margin-block-start: 10px;
+}
+
+.right {
+    position: absolute;
+    top: 17.3%;
+    left: 50%;
+}
+
+.first {
+    position: absolute;
+    top: 3.03%;
+    left: 50%;
+}
+
+.last {
+    position: absolute;
+    top: 31.7%;
+    left: 50%;
+}
+
+input {
+    width: 18vw;
+    height: 7vh;
+}
+
+select {
+    width: 18vw;
+    height: 7vh;
+}
+
+input[type="password"] {
+    height: 9vh;
+}
+
+input[type="password"] {
+    height: 9vh;
+}
+
+
+.eye {
+position: relative;
+}
+
+.fa-eye {
+position: absolute;
+left: 40%; 
+top: 30%;
+}
+}
+/*
+
+@media only screen and (min-width: 768px) {
+    .web {
+        display: flex;
+        width: 98.5vw;
+        height: 120vh;
+    }
+
+    .head > img {
+        margin-inline-start: 34px;
+        width: 30vw;
+        height: 10vh;
+        margin-block-start: 240px;
+    }
+
+    .head > h1 {
+        font-size: 30px;
+        margin-inline-start: 34px;
+    }
+
+    .head > p {
+        font-size: 17px;
+        margin-inline-start: 34px;
+        width: 40vw;
+    }
+
+    p:nth-of-type(1) {
+        display: none;
+    }
+
+    p:nth-of-type(2) {
+        display: block;
+    }
+
+    .form {
+       height: 120vh;
+       margin-inline-end: 10px;
+       width: 70vw;
+       position: relative;
+       margin-top: 40px;
+    }
+
+    .section-1 {
+        position: absolute;
+        top: 80%;
+        left: 48%;
+        font-size: 11px;
+    }
+
+    .btton > a {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    .btton {
+        height: 10vh;
+        width: 49.5vw;
+    }
+
+    .right {
+        position: absolute;
+        top: 16.5%;
+        left: 50%;
+    }
+
+    .first {
+        position: absolute;
+        top: 3%;
+        left: 50%;
+    }
+
+    .last {
+        position: absolute;
+        top: 29.8%;
+        left: 50%;
+    }
+
+    input {
+        width: 23vw;
+        height: 8vh;
+    }
+
+    select {
+        width: 23vw;
+        height: 8vh;
+    }
+
+    input[type="password"] {
+        height: 9vh;
+    }
+
+    
+.eye {
+    position: relative;
+  }
+  
+  .fa-eye {
+    position: absolute;
+    left: 40%; 
+    top: 30%;
+  }
+}
+
+
